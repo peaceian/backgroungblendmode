@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>background-blend-mode練習</title>
+    <style>
+        body {
+            width: 1200px;
+            margin: 0 auto;
+            background-color: whitesmoke;
+            padding: 30px
+        }
+
+        div {
+            width: 250px;
+            border: 10px solid transparent;
+            border-image: url(pattern2.png) 10 round;
+            box-sizing: border-box;
+        }
+
+        div {
+            box-shadow: 3px 3px black, 6px 6px gray, 9px 9px lightgrey;
+        }
+
+
+
+
+
+        /*div.text {width: 200px;border: 27px solid transparent ;padding: 10px;
+            -webkit-border-image-source: url(C:\Users\ian\web\Large_Turquoise_Transparent_Frame.png);
+            border-image-source:url(C:\Users\ian\web\Large_Turquoise_Transparent_Frame.png);
+            border-image-slice: 50;
+            border-image-width:initial;
+            border-image-outset: initial;
+            border-image-repeat: round;}*/
+
+
+
+
+        div {
+            background-color: bisque;
+        }
+
+        div.img1 img {
+            width: 230px;
+            mix-blend-mode: luminosity;
+        }
+
+        /*CSS設定圖片要指定img，非class指定名稱*/
+        div.img2 img {
+            width: 230px;
+            mix-blend-mode: darken;
+        }
+
+        div.img3 img {
+            width: 230px;
+            mix-blend-mode: exclusion;
+        }
+
+        div.img4 img {
+            width: 230px;
+            mix-blend-mode: hard-light;
+        }
+
+        div.img5 img {
+            width: 230px;
+            mix-blend-mode: overlay;
+        }
+
+        div.img6 img {
+            width: 230px;
+            mix-blend-mode: lighten;
+        }
+
+        div.img7 img {
+            width: 230px;
+            mix-blend-mode: multiply;
+        }
+
+        div.img8 img {
+            width: 230px;
+            mix-blend-mode: difference;
+        }
+
+        div.img9 img {
+            width: 230px;
+            mix-blend-mode: hue;
+        }
+
+        div.img10 img {
+            width: 230px;
+            mix-blend-mode: color-burn;
+        }
+
+        div.img11 img {
+            width: 230px;
+            z-index: 0;
+        }
+
+        div {
+            display: inline-block;
+        }
+    </style>
+</head>
+
+<body>
+    <h4>backgroung-blend-mode training</h4>
+    <div class="img1"><img src="alexis-ren-s1280x1920-436015-1020.jpg" alt="alexis ren"></div>
+    <div class="img2"><img src="alexis-ren-s1280x1920-436015-1020.jpg" alt="alexis ren"></div>
+    <div class="img3"><img src="alexis-ren-s1280x1920-436015-1020.jpg" alt="alexis ren"></div>
+    <div class="img4"><img src="alexis-ren-s1280x1920-436015-1020.jpg" alt="alexis ren"></div>
+    <div class="img5"><img src="alexis-ren-s1280x1920-436015-1020.jpg" alt="alexis ren"></div>
+    <div class="img6"><img src="alexis-ren-s1280x1920-436015-1020.jpg" alt="alexis ren"></div>
+    <div class="img7"><img src="alexis-ren-s1280x1920-436015-1020.jpg" alt="alexis ren"></div>
+    <div class="img8"><img src="alexis-ren-s1280x1920-436015-1020.jpg" alt="alexis ren"></div>
+    <div class="img9"><img src="alexis-ren-s1280x1920-436015-1020.jpg" alt="alexis ren"></div>
+    <div class="img10"><img src="alexis-ren-s1280x1920-436015-1020.jpg" alt="alexis ren"></div>
+    <div class="img11"><img src="alexis-ren-s1280x1920-436015-1020.jpg" alt="alexis ren"></div>
+    <div class="text"> 給div文字加邊框</div>
+</body>
+
+</html>
